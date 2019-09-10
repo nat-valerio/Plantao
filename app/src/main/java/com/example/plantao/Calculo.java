@@ -14,23 +14,22 @@ public class Calculo {
     }
 
     public double Maior (double[] valores){
-        double maior = 0;
+        double maior = valores[0];
 
 
-        for(int i = 0; i < valores.length; i++){
-            double var = 0;
+        for(int i = 1; i < valores.length; i++){
 
-            if (var <= valores.length){
-
-            }
-            else if (var > valores.length){
+            if (valores[i] > maior){
                 maior = valores[i];
             }
 
         }return maior;
     }
 
-    //public boolean
+    public double PorcentagemAcertos (boolean[] respostas){
+     double porcentagem = 0;
+        return porcentagem;
+     }
 
 
 
